@@ -17,53 +17,86 @@
     <title>Kauê Silva de Lima</title>
 </head>
 
+<style>
+    /* 2. ESTILO PARA O CABEÇALHO/LOGO (POSICIONAMENTO NO CANTO) */
+    header {
+        /* Fixa o elemento no canto superior esquerdo da página */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        z-index: 10;
+    }
+
+    /* Estilo para a imagem do Logo */
+    .logo img {
+        width: 100px;
+        /* Tamanho do logo */
+        height: 100px;
+        margin: 25px;
+        /* Espaçamento das bordas */
+    }
+</style>
+
 <body>
 
-    <section class="portfolio2">
-        <div class="interface-projetos">
-            <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
-
-            <div class="flex">
-
-                <a href="quiz-pokémon.html" target="_blank">
-                    <div class="img-port" style="background-image: url(images/projeto1.png);">
-                        <div class="overlay">Quiz em HTML</div>
-                    </div>
+    <header>
+        <div class="interface3">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./images/logo-removebg-preview.png" alt="Logo">
                 </a>
-
-                <a href="https://github.com/KaueZk/Assistente_IA" target="_blank">
-                    <div class="img-port" style="background-image: url(images/projeto2.jpg);">
-                        <div class="overlay">Synapse IA</div>
-                    </div>
-                </a>
-
-                <a href="automatizador.html" target="_blank">
-                    <div class="img-port" style="background-image: url(images/projeto3.png);">
-                        <div class="overlay">Automatizador de Cadastros</div>
-                    </div>
-                </a>
-
-            </div>
-            <div class="flex">
-
-                <a href="URL_DO_SEU_PROJETO_4_AQUI" target="_blank">
-                    <div class="img-port" style="background-image: url(images/teste.png);">
-                        <div class="overlay">Projeto 4</div>
-                    </div>
-                </a>
-
-                <a href="https://codepen.io/Kaue-Silva-de-Lima/pen/xbbwwqr" target="_blank">
-                    <div class="img-port" style="background-image: url(images/projeto5.jpg);">
-                        <div class="overlay">Derrote os Vilões</div>
-                    </div>
-                </a>
-
-                <a href="URL_DO_SEU_PROJETO_6_AQUI" target="_blank">
-                    <div class="img-port" style="background-image: url(images/teste.png);">
-                        <div class="overlay">Projeto 6</div>
-                    </div>
-                </a>
-
             </div>
         </div>
-    </section>
+    </header>
+
+    <body>
+
+        <section class="portfolio2">
+            <div class="interface-projetos">
+                <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+
+                <div class="flex">
+
+                    <a href="quiz-pokémon.html" target="_blank">
+                        <div class="img-port" style="background-image: url(images/projeto1.png);">
+                            <div class="overlay">Quiz em HTML</div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/KaueZk/Assistente_IA" target="_blank">
+                        <div class="img-port" style="background-image: url(images/projeto2.jpg);">
+                            <div class="overlay">Synapse IA</div>
+                        </div>
+                    </a>
+
+                    <a href="automatizador.html" target="_blank">
+                        <div class="img-port" style="background-image: url(images/projeto3.png);">
+                            <div class="overlay">Automatizador de Cadastros</div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="flex">
+
+                    <a href="conversor-de-moedas.html" target="_blank">
+                        <div class="img-port" style="background-image: url(images/projeto4.jpg);">
+                            <div class="overlay">Conversor de moedas</div>
+                        </div>
+                    </a>
+
+                    <a href="Derrote_os_vilões.html" target="_blank">
+                        <div class="img-port" style="background-image: url(images/projeto5.png);">
+                            <div class="overlay">Derrote os Vilões</div>
+                        </div>
+                    </a>
+
+                    <a href="URL_DO_SEU_PROJETO_6_AQUI" target="_blank">
+                        <div class="img-port" style="background-image: url(images/teste.png);">
+                            <div class="overlay">Projeto 6</div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>

@@ -8,10 +8,32 @@
     <style>
         /* 1. ESTILOS GLOBAIS E DE CENTRALIZAÇÃO DO CONTEÚDO PRINCIPAL (TÍTULO/VÍDEO) */
         body {
-            background-color: #000000;
-            /* Fundo Preto */
+            /* Substitua 'background-color' por 'background-image' */
+            background-image: url('./images/fundo automatizador.png');
+
+            /* Configurações Adicionais Recomendadas: */
+
+            /* Evita que a imagem de fundo se repita se for menor que a tela */
+            background-repeat: no-repeat;
+
+            /* Centraliza a imagem no elemento */
+            background-position: center center;
+
+            /* Garante que a imagem cubra todo o elemento, cortando o excesso se necessário */
+            background-size: cover;
+
+            /* Mantém a imagem fixa enquanto a página rola (opcional, mas comum) */
+            background-attachment: fixed;
+
             margin: 0;
-            padding: 40px 20px;
+            padding: 0;
+
+            /* Mantenha o body ocupando a tela inteira */
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        body {
             /* Espaçamento do topo e laterais */
 
             /* Configuração Flexbox para centralizar e alinhar ao topo */
@@ -64,7 +86,7 @@
             width: 800px;
             height: 400px;
             border-radius: 10px;
-            box-shadow: 0 0 10px #00FF08;
+            box-shadow: 0 0 10px #00ffdd;
             margin-top: 20px;
         }
     </style>
